@@ -8,7 +8,7 @@ from PySide2.QtCore import Qt, QCoreApplication, QEvent, QObject, QThread, Signa
 from PySide2.QtGui import QCursor, QIcon
 
 # UI 클래스
-class MainUI(QMainWindow):
+class PBDP_mainUI(QMainWindow):
     def __init__(self):
         super().__init__()
 
